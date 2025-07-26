@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (min-width: 1028px)" href="style/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1028px)" href="style/desktopstyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style/tabletstyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="style/mobilestyle.css">
+    
+</head>
+
+<body>
+   <div id="root">
+     <div>
+        <h1>Rent A Car</h1>
+        <p> Write a program that displays the following menu for a parking area:</p>
+        <ol>
+            <li>M = Motorcycle</li>
+            <li>C = Car </li>
+            <li>B = Bus</li>
+        </ol>
+        <p>The program inputs the type of vehicle and number of days to park the vehicle. It finally displays the total
+            chares for the parking accorkding to the following:</p>
+        <ol>
+            <li>Motorcycle Rs.10 per day </li>
+            <li>Car Rs. 20 per day</li>
+            <li>Bus Rs. 30 per day</li>
+        </ol>
+         <select name="" id="choice">
+            <option value="M">M = Motorcycle</option>
+            <option value="C">C = Car </option>
+            <option value="B">B = Bus </option>
+        </select>
+        <input type="number" id="months" placeholder="Please Entered Months">
+        <button onclick="myFunction()">Calculate</button>
+        <p id="output"></p>
+    </div>
+   </div>
+ <script src="javascript.js"></script>
+</body>
+
+</html>
